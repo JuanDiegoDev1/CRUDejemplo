@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 
 @Entity
+// NOMBRE DE LA TABLE EN LA BASE DE DATOS ES estudiantes(esta mapeando)
 @Table(name="estudiantes")
 public class Estudiante {
 	
@@ -17,6 +18,7 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	private String email;
+	
 	public Long getId() {
 		return id;
 	}
